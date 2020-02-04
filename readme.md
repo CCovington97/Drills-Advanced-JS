@@ -97,7 +97,7 @@ printFavFruit();
 16. Save and refresh the browser. favFruit is now logged because the printFavFruit has access to variables in its parent function.
 17. Create a new variable named leastFav using the let keyword
 18. Assign it to your least favorite fruit
-19. Log leasFav to the console after the printFavFruit function is declared
+19. Log leastFav to the console after the printFavFruit function is declared
 20. Save and refresh the browser. leastFav is undefined because the parent function does not have access to variables declared within the nested function.
 21. Create a new function and name the function whatever you would like, make sure to create this using the function keyword, have this function console.log “Hello, “ and then your name. Call this function BEFORE the function body. Example:
 ```
@@ -107,7 +107,7 @@ function someFunc() {
 }
 *You’ll notice the function runs no problem, because the function is hoisted*
 ```
-22. Create a new function and name the function using a function expression (create it using let, not ver). Have this function have an alert appear with some text of your choosing.
+22. Create a new function and name the function using a function expression (create it using let, not var). Have this function have an alert appear with some text of your choosing.
 23. Call the function before it is declared as an expression, what happens? Because of hoisting and the use the ES6 an error may occur. Adjust the code to allow the function to run.
 ## Submission
 Commit and your changes and push to your GitHub profile.
